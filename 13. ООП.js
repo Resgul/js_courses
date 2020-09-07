@@ -281,7 +281,7 @@ class Animal {
 class Cat extends Animal {
   constructor(a, b, moustashe) {
     super(a, b);
-    this.c = c;
+    this.c = moustashe;
   }
 
   toHTML() {
